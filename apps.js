@@ -1,10 +1,7 @@
 function calculateAge() {
   const dob = document.getElementById("time").value;
   const result = document.querySelector("#result");
-
-  // if(!dob) {
-  //   result.innerText = "Select your Date of birth ?";
-  // } 
+  
 
   const birthdate = new Date(dob);
   const today = new Date();
